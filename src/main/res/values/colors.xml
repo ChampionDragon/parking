@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <!-- 扫描框旁边区域的颜色 -->
+    <color name="my_viewfinder_mask">#60000000</color>
+    <!-- 标准颜色 -->
+    <color name="blue_light">#00ffff</color>
+    <color name="green_dark">#44b391</color>    <!--墨绿-->
+    <color name="myshadow">#b3b3b3</color>
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="purple">#800073</color>
+    <color name="gold">#ffd700</color>
+    <color name="blueSky">#2894ff</color>
+    <color name="blue">#0f71d2</color>
+    <color name="blue_deep">#0000ff</color>
+    <color name="red">#ff0000</color>
+    <color name="red_deep">#8B1A1A</color>
+    <color name="green">#32cd32</color>
+    <color name="green_deep">#006000</color>
+    <color name="green_shallow">#ADFF2F</color>
+    <color name="yellow">#ffff00</color>
+    <color name="orange">#ffa500</color>
+    <color name="orange_deep">#CD6600</color>
+    <color name="gray">#707070</color>
+    <color name="gray_shallow">#bfbfbf</color>
+    <color name="transparent">#00ff0000</color>
+    <color name="trans_bg_color">#c0ffffff</color>
+    <!-- 项目主要背景颜色 -->
+
+
+</resources>

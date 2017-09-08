@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/white"
+              android:orientation="vertical">
+
+    <RelativeLayout
+        style="@style/tt"
+        android:layout_width="match_parent">
+
+        <TextView
+            style="@style/tt_tv"
+            android:layout_centerInParent="true"
+            android:text="定位和地图"/>
+
+        <ImageView
+            android:id="@+id/back_location"
+            style="@style/tt_iv"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/title_im"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.baidu.mapapi.map.MapView
+            android:id="@+id/location_map"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clickable="true"/>
+
+        <ImageButton
+            android:id="@+id/location_locatemap"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="66dp"
+            android:layout_marginLeft="44dp"
+            android:background="@mipmap/ic_map_locate"
+            android:contentDescription="@null"/>
+        <ImageButton
+            android:id="@+id/location_condition"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/main_icon_roadcondition_off"
+            android:layout_alignBottom="@id/location_locatemap"
+            android:layout_toRightOf="@id/location_locatemap"
+            android:layout_marginLeft="11dp"
+            />
+        <ImageButton
+            android:id="@+id/location_hot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/hot"
+            android:layout_alignBottom="@id/location_condition"
+            android:layout_toRightOf="@id/location_condition"
+            android:layout_marginLeft="11dp"
+            />
+
+
+        <Button
+            android:id="@+id/location_model"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="25dp"
+            android:layout_marginTop="10dip"
+            android:text="跟随"
+            android:textSize="18sp"/>
+
+        <Button
+            android:id="@+id/location_marker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@id/location_model"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="10dp"
+            android:text="自定义图标"
+            android:textSize="18sp"/>
+        <Button
+            android:id="@+id/location_state"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/location_marker"
+            android:layout_toRightOf="@id/location_marker"
+            android:layout_marginLeft="11dp"
+            android:text="卫星地图"
+            android:textSize="18sp"/>
+
+
+    </RelativeLayout>
+
+</LinearLayout>
